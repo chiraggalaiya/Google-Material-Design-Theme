@@ -15,8 +15,8 @@ div.sfbg, div.sfbgg {
 .srp #sfdiv {
   max-width: 600px !important;
   overflow: hidden !important;
-  border-top-left-radius: 5px !important;
-  border-bottom-left-radius: 5px !important;
+  border-top-left-radius: 4px !important;
+  border-bottom-left-radius: 4px !important;
   height: 35px !important;
   padding-top: 10px !important;
   border-color: #fff !important;
@@ -28,8 +28,8 @@ div.sfbg, div.sfbgg {
 #sblsbb {
   border-bottom-left-radius: 0 !important;
   border-top-left-radius: 0 !important;
-  border-bottom-right-radius: 5px !important;
-  border-top-right-radius: 5px !important;
+  border-bottom-right-radius: 4px !important;
+  border-top-right-radius: 4px !important;
   text-align: center !important;
   height: 46.6px !important;
   margin: 0 !important;
@@ -48,6 +48,7 @@ div.sfbg, div.sfbgg {
   width: 100% !important;
   background-image: url("http://i.imgur.com/wOV8jlE.png") !important;
   background-position: -40px -28px !important;
+  cursor: pointer !important;
 }
 .sbico {
   background: none !important;
@@ -62,31 +63,28 @@ div.sfbg, div.sfbgg {
 }
 #logo {
   display: block !important;
-  height: 37px !important;
+  height: 31px !important;
   margin: 0 !important;
   overflow: hidden !important;
   position: relative !important;
   width: 95px !important;
-  background: url("http://i.imgur.com/wOV8jlE.png") !important;
-  background-position: -105px -100px !important;
+  background: url("http://i.imgur.com/PO1dnyK.png") !important;
 }
-  #logocont{
+#logocont{
   margin-top: -10px !important;
-  }
-  #qbi{
-  margin-top: -10px !important;
-  
-  }
-  #qbc{
-  margin-top: 60px !important;
-  }
-  .gsfi, .lst{
-  margin: -5px 0px 0px 5px !important;
-  }  
-  
-  
-  
-  
+  padding-top: 12px !important;
+  padding-left 16px !important;
+}
+#qbi{
+margin-top: -10px !important;
+
+}
+#qbc{
+margin-top: 60px !important;
+}
+.gsfi, .lst{
+margin: -5px 0px 0px 5px !important;
+}  
 body.vasq #hdtbSum {
   height: 59px !important;
   line-height: 54px !important;
@@ -184,9 +182,7 @@ a#pnprev.pn span.csb.ch{
 }
 #fbar{
   background:#375661 !important;
-
 }
 #irl_r {
   visibility: hidden !important;
-
 }
